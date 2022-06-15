@@ -5,15 +5,26 @@ body{
  background-color: lightblue;
 } 
 img{
-    
-        margin: 25px 50px 75px 100px;
-      
+  
+     margin-left: 10%; 
+     margin-right: 10%;
 }
 iframe{
-    margin: 25px 50px 75px 100px;
+margin-left: 30%;
+margin-top: 10%;
+margin-bottom: 10%;
 
 }
-header {
+header,footer {
+    background-color: antiquewhite;
     display: block;
+    padding:  1px 1px 1px 1px;
   }
-  
+  h1{
+    text-align: center;
+  }
+
+.listHorizontal{
+    display:flex ;
+    justify-content: space-evenly;
+}
